@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-11-04T18:39:28.418498+00:00",
+  "economy": "Norway",
+  "question": {
+    "pillar": "Legal Frameworks",
+    "section_name": "Parenthood",
+    "question_number": "3.1.1.",
+    "question_text": "How many days of paid maternity leave are employees legally entitled to?",
+    "response_type": "integer",
+    "hint": "“Days” refers to calendar days. Maternity leave refers to leave available only to the mother for the birth of a child to be taken just before, during and immediately after childbirth."
+  },
+  "assumptions_used": [
+    "Both parents work full-time. They are married and have no other children, this is the couple’s first pregnancy, the woman is pregnant with only one child, the pregnancy and birth have no complications and that the birth of a healthy child takes place on October 1, 2024. If cash benefits while on leave are not calculated as a set percentage of the employee’s income, assume the employee earns the minimum wage for the food retail sector.",
+    "For the purposes of this questionnaire, it is assumed that the questions focus on a woman residing in the main business city. Unless otherwise indicated, the woman in question has reached the legal age of majority and is capable of making decisions as an adult, is in good health and has no criminal record. The woman in question is a lawful citizen of the economy being examined."
+  ],
+  "model": "gpt-5-mini",
+  "usage": {
+    "total_tokens": 10811
+  },
+  "output": {
+    "raw": "{\"value\":63,\"reasoning\":\"Mother must take the last 3 weeks before birth and the first 6 weeks after birth (9 calendar weeks = 63 days) as maternity leave reserved for the mother in Norway.\",\"confidence\":0.6,\"sources\":[{\"title\":\"Paid and unpaid leave - Altinn (Norway)\",\"url\":\"https://info.altinn.no/en/start-and-run-business/working-conditions/print-leave-of-absence-and-holidays/paid-and-unpaid-leave/\"},{\"title\":\"Parental leave in Norway? What you should know - Tekna\",\"url\":\"https://www.tekna.no/en/salary-and-negotiations/employment-law/parental-leave-in-norway--what-you-should-know/\"}]}",
+    "structured": {
+      "value": 63,
+      "reasoning": "Mother must take the last 3 weeks before birth and the first 6 weeks after birth (9 calendar weeks = 63 days) as maternity leave reserved for the mother in Norway.",
+      "confidence": 0.6,
+      "sources": [
+        {
+          "title": "Paid and unpaid leave - Altinn (Norway)",
+          "url": "https://info.altinn.no/en/start-and-run-business/working-conditions/print-leave-of-absence-and-holidays/paid-and-unpaid-leave/"
+        },
+        {
+          "title": "Parental leave in Norway? What you should know - Tekna",
+          "url": "https://www.tekna.no/en/salary-and-negotiations/employment-law/parental-leave-in-norway--what-you-should-know/"
+        }
+      ]
+    },
+    "reasoning": "Mother must take the last 3 weeks before birth and the first 6 weeks after birth (9 calendar weeks = 63 days) as maternity leave reserved for the mother in Norway.",
+    "sources": [
+      {
+        "title": "Paid and unpaid leave - Altinn (Norway)",
+        "url": "https://info.altinn.no/en/start-and-run-business/working-conditions/print-leave-of-absence-and-holidays/paid-and-unpaid-leave/"
+      },
+      {
+        "title": "Parental leave in Norway? What you should know - Tekna",
+        "url": "https://www.tekna.no/en/salary-and-negotiations/employment-law/parental-leave-in-norway--what-you-should-know/"
+      }
+    ],
+    "confidence": 0.6,
+    "answer": null,
+    "value": 63
+  }
+}

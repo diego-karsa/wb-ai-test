@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-11-04T18:38:17.795715+00:00",
+  "economy": "Norway",
+  "question": {
+    "pillar": "Legal Frameworks",
+    "section_name": "Pay",
+    "question_number": "2.1.",
+    "question_text": "Does the law mandate equal remuneration for work of equal value?",
+    "response_type": "yes_no",
+    "hint": "Remuneration refers to the ordinary, basic, or minimum wage or salary and any additional emoluments payable directly or indirectly, whether in cash or in kind, by the employer to the worker and arising from the worker’s employment. Work of equal value refers not only to the same or similar jobs, but also to different jobs of the same value"
+  },
+  "assumptions_used": [
+    "For the purposes of this questionnaire, it is assumed that the questions focus on a woman residing in the main business city. Unless otherwise indicated, the woman in question has reached the legal age of majority and is capable of making decisions as an adult, is in good health and has no criminal record. The woman in question is a lawful citizen of the economy being examined."
+  ],
+  "model": "gpt-5-mini",
+  "usage": {
+    "total_tokens": 13083
+  },
+  "output": {
+    "raw": "{\"answer\":\"Yes\",\"reasoning\":\"Norway’s Equality and Anti-Discrimination Act §34 obliges employers to provide equal pay for the same work or work of equal value, with objective criteria (competence, responsibility, effort, working conditions) defining equal value.\",\"confidence\":0.9,\"sources\":[{\"title\":\"Equality and Anti-Discrimination Act §34 (Lovdata)\",\"url\":\"https://lovdata.no/dokument/NLE/lov/2017-06-16-51/%C2%A734\"},{\"title\":\"Guidance on pay mapping and equal pay (NHO/arbinn)\",\"url\":\"https://arbinn.nho.no/arbeidsliv/diskriminering/likelonnskartlegging-verktoy-steg-for-steg/\"}]}",
+    "structured": {
+      "answer": "Yes",
+      "reasoning": "Norway’s Equality and Anti-Discrimination Act §34 obliges employers to provide equal pay for the same work or work of equal value, with objective criteria (competence, responsibility, effort, working conditions) defining equal value.",
+      "confidence": 0.9,
+      "sources": [
+        {
+          "title": "Equality and Anti-Discrimination Act §34 (Lovdata)",
+          "url": "https://lovdata.no/dokument/NLE/lov/2017-06-16-51/%C2%A734"
+        },
+        {
+          "title": "Guidance on pay mapping and equal pay (NHO/arbinn)",
+          "url": "https://arbinn.nho.no/arbeidsliv/diskriminering/likelonnskartlegging-verktoy-steg-for-steg/"
+        }
+      ]
+    },
+    "reasoning": "Norway’s Equality and Anti-Discrimination Act §34 obliges employers to provide equal pay for the same work or work of equal value, with objective criteria (competence, responsibility, effort, working conditions) defining equal value.",
+    "sources": [
+      {
+        "title": "Equality and Anti-Discrimination Act §34 (Lovdata)",
+        "url": "https://lovdata.no/dokument/NLE/lov/2017-06-16-51/%C2%A734"
+      },
+      {
+        "title": "Guidance on pay mapping and equal pay (NHO/arbinn)",
+        "url": "https://arbinn.nho.no/arbeidsliv/diskriminering/likelonnskartlegging-verktoy-steg-for-steg/"
+      }
+    ],
+    "confidence": 0.9,
+    "answer": "Yes",
+    "value": null
+  }
+}

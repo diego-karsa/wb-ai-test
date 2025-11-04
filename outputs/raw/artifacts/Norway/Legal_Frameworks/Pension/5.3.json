@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-11-04T18:42:07.398932+00:00",
+  "economy": "Norway",
+  "question": {
+    "pillar": "Legal Frameworks",
+    "section_name": "Pension",
+    "question_number": "5.3.",
+    "question_text": "Are periods of absence due to childcare accounted for in the calculation of pension benefits?",
+    "response_type": "yes_no",
+    "hint": "nan"
+  },
+  "assumptions_used": [
+    "For the purposes of this questionnaire, it is assumed that the questions focus on a woman residing in the main business city. Unless otherwise indicated, the woman in question has reached the legal age of majority and is capable of making decisions as an adult, is in good health and has no criminal record. The woman in question is a lawful citizen of the economy being examined."
+  ],
+  "model": "gpt-5-mini",
+  "usage": {
+    "total_tokens": 9151
+  },
+  "output": {
+    "raw": "{\"answer\":\"Yes\",\"reasoning\":\"Norway awards pension accruals for periods caring for young children (automatic if receiving child benefit for children under six), credited as pension rights equivalent to a specified income level (G).\",\"confidence\":0.9,\"sources\":[{\"title\":\"Accumulation of pension rights for care work - NAV\",\"url\":\"https://www.nav.no/en/home/benefits-and-services/relatert-informasjon/accumulation-of-pension-rights-for-care-work\"},{\"title\":\"Child benefit (barnetrygd) - NAV\",\"url\":\"https://www.nav.no/barnetrygd/en\"}]}",
+    "structured": {
+      "answer": "Yes",
+      "reasoning": "Norway awards pension accruals for periods caring for young children (automatic if receiving child benefit for children under six), credited as pension rights equivalent to a specified income level (G).",
+      "confidence": 0.9,
+      "sources": [
+        {
+          "title": "Accumulation of pension rights for care work - NAV",
+          "url": "https://www.nav.no/en/home/benefits-and-services/relatert-informasjon/accumulation-of-pension-rights-for-care-work"
+        },
+        {
+          "title": "Child benefit (barnetrygd) - NAV",
+          "url": "https://www.nav.no/barnetrygd/en"
+        }
+      ]
+    },
+    "reasoning": "Norway awards pension accruals for periods caring for young children (automatic if receiving child benefit for children under six), credited as pension rights equivalent to a specified income level (G).",
+    "sources": [
+      {
+        "title": "Accumulation of pension rights for care work - NAV",
+        "url": "https://www.nav.no/en/home/benefits-and-services/relatert-informasjon/accumulation-of-pension-rights-for-care-work"
+      },
+      {
+        "title": "Child benefit (barnetrygd) - NAV",
+        "url": "https://www.nav.no/barnetrygd/en"
+      }
+    ],
+    "confidence": 0.9,
+    "answer": "Yes",
+    "value": null
+  }
+}

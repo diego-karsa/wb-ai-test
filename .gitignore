@@ -1,0 +1,29 @@
+# === Secrets and credentials ===
+.env
+cacert.pem
+
+# === Python cache ===
+__pycache__/
+*.pyc
+
+# === OS / editor clutter ===
+.DS_Store
+Thumbs.db
+
+# === Jupyter and logs ===
+*.ipynb_checkpoints
+*.log
+
+# === Local configuration ===
+*.bak
+*.tmp
+
+# === Data & Outputs ===
+#data/raw/*
+#!data/raw/.gitkeep
+#data/processed/*
+#!data/processed/.gitkeep
+#outputs/raw/*
+#!outputs/raw/.gitkeep
+#outputs/processed/*
+#!outputs/processed/.gitkeep

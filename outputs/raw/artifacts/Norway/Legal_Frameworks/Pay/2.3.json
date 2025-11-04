@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-11-04T18:38:41.169612+00:00",
+  "economy": "Norway",
+  "question": {
+    "pillar": "Legal Frameworks",
+    "section_name": "Pay",
+    "question_number": "2.3.",
+    "question_text": "Can a woman work in a job deemed dangerous in the same way as a man?",
+    "response_type": "yes_no",
+    "hint": "The answer is “No” only where legislation explicitly uses terms such as “hazardous,” “arduous,” “morally or socially inappropriate” or their synonyms to describe a broad category of jobs that women are legally prohibited from doing."
+  },
+  "assumptions_used": [
+    "For the purposes of this questionnaire, it is assumed that the questions focus on a woman residing in the main business city. Unless otherwise indicated, the woman in question has reached the legal age of majority and is capable of making decisions as an adult, is in good health and has no criminal record. The woman in question is a lawful citizen of the economy being examined."
+  ],
+  "model": "gpt-5-mini",
+  "usage": {
+    "total_tokens": 9074
+  },
+  "output": {
+    "raw": "{\"answer\":\"Yes\",\"reasoning\":\"Norwegian law prohibits gender discrimination; women may work in the same dangerous jobs as men, subject to workplace safety rules and special protections for pregnant or breastfeeding women and other vulnerable groups.\",\"confidence\":0.9,\"sources\":[{\"title\":\"Working Environment Act (English) - Norwegian Labour Inspection Authority\",\"url\":\"https://www.arbeidstilsynet.no/en/laws-and-regulations/laws/the-working-environment-act/\"},{\"title\":\"Act relating to equality and a prohibition against discrimination (Equality and Anti-Discrimination Act) - Lovdata\",\"url\":\"https://lovdata.no/dokument/NLE/lov/2017-06-16-51\"}]}",
+    "structured": {
+      "answer": "Yes",
+      "reasoning": "Norwegian law prohibits gender discrimination; women may work in the same dangerous jobs as men, subject to workplace safety rules and special protections for pregnant or breastfeeding women and other vulnerable groups.",
+      "confidence": 0.9,
+      "sources": [
+        {
+          "title": "Working Environment Act (English) - Norwegian Labour Inspection Authority",
+          "url": "https://www.arbeidstilsynet.no/en/laws-and-regulations/laws/the-working-environment-act/"
+        },
+        {
+          "title": "Act relating to equality and a prohibition against discrimination (Equality and Anti-Discrimination Act) - Lovdata",
+          "url": "https://lovdata.no/dokument/NLE/lov/2017-06-16-51"
+        }
+      ]
+    },
+    "reasoning": "Norwegian law prohibits gender discrimination; women may work in the same dangerous jobs as men, subject to workplace safety rules and special protections for pregnant or breastfeeding women and other vulnerable groups.",
+    "sources": [
+      {
+        "title": "Working Environment Act (English) - Norwegian Labour Inspection Authority",
+        "url": "https://www.arbeidstilsynet.no/en/laws-and-regulations/laws/the-working-environment-act/"
+      },
+      {
+        "title": "Act relating to equality and a prohibition against discrimination (Equality and Anti-Discrimination Act) - Lovdata",
+        "url": "https://lovdata.no/dokument/NLE/lov/2017-06-16-51"
+      }
+    ],
+    "confidence": 0.9,
+    "answer": "Yes",
+    "value": null
+  }
+}

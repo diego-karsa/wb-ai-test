@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-11-04T18:41:48.617665+00:00",
+  "economy": "Norway",
+  "question": {
+    "pillar": "Legal Frameworks",
+    "section_name": "Pension",
+    "question_number": "5.2.1.",
+    "question_text": "What is the mandatory retirement age for a woman?",
+    "response_type": "integer",
+    "hint": "nan"
+  },
+  "assumptions_used": [
+    "For the purposes of this questionnaire, it is assumed that the questions focus on a woman residing in the main business city. Unless otherwise indicated, the woman in question has reached the legal age of majority and is capable of making decisions as an adult, is in good health and has no criminal record. The woman in question is a lawful citizen of the economy being examined."
+  ],
+  "model": "gpt-5-mini",
+  "usage": {
+    "total_tokens": 16916
+  },
+  "output": {
+    "raw": "{\"value\":72,\"reasoning\":\"Norway’s Working Environment Act sets the general upper age limit at 72 years, when an employer may end employment due to age (applies regardless of gender).\",\"confidence\":0.9,\"sources\":[{\"title\":\"Arbeidsmiljøloven § 15-13 a — Opphør av arbeidsforhold grunnet alder (Lovdata)\",\"url\":\"https://lovdata.no/nav/lov/2005-06-17-62/%C2%A715-13a\"},{\"title\":\"Lov om arbeidsmiljø, arbeidstid og stillingsvern mv. (arbeidsmiljøloven) — Lovdata\",\"url\":\"https://lovdata.no/dokument/NL/lov/2005-06-17-62/a\"}]}",
+    "structured": {
+      "value": 72,
+      "reasoning": "Norway’s Working Environment Act sets the general upper age limit at 72 years, when an employer may end employment due to age (applies regardless of gender).",
+      "confidence": 0.9,
+      "sources": [
+        {
+          "title": "Arbeidsmiljøloven § 15-13 a — Opphør av arbeidsforhold grunnet alder (Lovdata)",
+          "url": "https://lovdata.no/nav/lov/2005-06-17-62/%C2%A715-13a"
+        },
+        {
+          "title": "Lov om arbeidsmiljø, arbeidstid og stillingsvern mv. (arbeidsmiljøloven) — Lovdata",
+          "url": "https://lovdata.no/dokument/NL/lov/2005-06-17-62/a"
+        }
+      ]
+    },
+    "reasoning": "Norway’s Working Environment Act sets the general upper age limit at 72 years, when an employer may end employment due to age (applies regardless of gender).",
+    "sources": [
+      {
+        "title": "Arbeidsmiljøloven § 15-13 a — Opphør av arbeidsforhold grunnet alder (Lovdata)",
+        "url": "https://lovdata.no/nav/lov/2005-06-17-62/%C2%A715-13a"
+      },
+      {
+        "title": "Lov om arbeidsmiljø, arbeidstid og stillingsvern mv. (arbeidsmiljøloven) — Lovdata",
+        "url": "https://lovdata.no/dokument/NL/lov/2005-06-17-62/a"
+      }
+    ],
+    "confidence": 0.9,
+    "answer": null,
+    "value": 72
+  }
+}

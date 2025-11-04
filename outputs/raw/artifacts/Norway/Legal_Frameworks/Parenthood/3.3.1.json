@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-11-04T18:39:50.370477+00:00",
+  "economy": "Norway",
+  "question": {
+    "pillar": "Legal Frameworks",
+    "section_name": "Parenthood",
+    "question_number": "3.3.1.",
+    "question_text": "How many days of paid paternity leave are employees legally entitled to?",
+    "response_type": "integer",
+    "hint": "“Days” refers to calendar days. Paternity leave refers to leave available only to the father for the birth of a child."
+  },
+  "assumptions_used": [
+    "Both parents work full-time. They are married and have no other children, this is the couple’s first pregnancy, the woman is pregnant with only one child, the pregnancy and birth have no complications and that the birth of a healthy child takes place on October 1, 2024. If cash benefits while on leave are not calculated as a set percentage of the employee’s income, assume the employee earns the minimum wage for the food retail sector.",
+    "For the purposes of this questionnaire, it is assumed that the questions focus on a woman residing in the main business city. Unless otherwise indicated, the woman in question has reached the legal age of majority and is capable of making decisions as an adult, is in good health and has no criminal record. The woman in question is a lawful citizen of the economy being examined."
+  ],
+  "model": "gpt-5-mini",
+  "usage": {
+    "total_tokens": 17418
+  },
+  "output": {
+    "raw": "{\"value\":105,\"reasoning\":\"Fedrekvote (paternity quota) is 15 weeks reserved for the father when parents choose 100% coverage: 15 weeks × 7 days = 105 calendar days.\", \"confidence\":0.9, \"sources\":[{\"title\":\"Folketrygdloven §14-12 — Lovdata\",\"url\":\"https://lovdata.no/lov/1997-02-28-19/%C2%A714-12\"},{\"title\":\"Fedrekvote (description and weeks/days) — NAV\",\"url\":\"https://www.nav.no/no/nav-og-samfunn/statistikk/familie-statistikk/relatert-informasjon/om-statistikken-foreldrepenger-ved-fodsel/4.begreper-kjennemerker-og-grupperinger\"}]}",
+    "structured": {
+      "value": 105,
+      "reasoning": "Fedrekvote (paternity quota) is 15 weeks reserved for the father when parents choose 100% coverage: 15 weeks × 7 days = 105 calendar days.",
+      "confidence": 0.9,
+      "sources": [
+        {
+          "title": "Folketrygdloven §14-12 — Lovdata",
+          "url": "https://lovdata.no/lov/1997-02-28-19/%C2%A714-12"
+        },
+        {
+          "title": "Fedrekvote (description and weeks/days) — NAV",
+          "url": "https://www.nav.no/no/nav-og-samfunn/statistikk/familie-statistikk/relatert-informasjon/om-statistikken-foreldrepenger-ved-fodsel/4.begreper-kjennemerker-og-grupperinger"
+        }
+      ]
+    },
+    "reasoning": "Fedrekvote (paternity quota) is 15 weeks reserved for the father when parents choose 100% coverage: 15 weeks × 7 days = 105 calendar days.",
+    "sources": [
+      {
+        "title": "Folketrygdloven §14-12 — Lovdata",
+        "url": "https://lovdata.no/lov/1997-02-28-19/%C2%A714-12"
+      },
+      {
+        "title": "Fedrekvote (description and weeks/days) — NAV",
+        "url": "https://www.nav.no/no/nav-og-samfunn/statistikk/familie-statistikk/relatert-informasjon/om-statistikken-foreldrepenger-ved-fodsel/4.begreper-kjennemerker-og-grupperinger"
+      }
+    ],
+    "confidence": 0.9,
+    "answer": null,
+    "value": 105
+  }
+}

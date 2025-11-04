@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-11-04T18:38:02.307308+00:00",
+  "economy": "Norway",
+  "question": {
+    "pillar": "Legal Frameworks",
+    "section_name": "Work",
+    "question_number": "1.3.2.",
+    "question_text": "Does the law allow employees to request remote work?",
+    "response_type": "yes_no",
+    "hint": "nan"
+  },
+  "assumptions_used": [
+    "For the purposes of this questionnaire, it is assumed that the questions focus on a woman residing in the main business city. Unless otherwise indicated, the woman in question has reached the legal age of majority and is capable of making decisions as an adult, is in good health and has no criminal record. The woman in question is a lawful citizen of the economy being examined."
+  ],
+  "model": "gpt-5-mini",
+  "usage": {
+    "total_tokens": 17303
+  },
+  "output": {
+    "raw": "{\"answer\":\"No\",\"reasoning\":\"Norwegian law requires employer and employee agreement for home-office; workers generally cannot unilaterally demand permanent remote work. Rules regulate obligations when home work applies, but not a statutory right to request and obtain it.\", \"confidence\":0.9, \"sources\":[{\"title\":\"Hjemmekontor – Arbeidstilsynet (Norwegian Labour Inspection Authority)\",\"url\":\"https://www.arbeidstilsynet.no/lonn-og-ansettelse/ansettelse/heimekontor/\"},{\"title\":\"Hjemmekontor - hva må du som arbeidsgiver tenke på? – Altinn\",\"url\":\"https://info.altinn.no/starte-og-drive/arbeidsforhold/ansettelse/hjemmekontor---hva-ma-du-som-arbeidsgiver-tenke-pa/\"}]}",
+    "structured": {
+      "answer": "No",
+      "reasoning": "Norwegian law requires employer and employee agreement for home-office; workers generally cannot unilaterally demand permanent remote work. Rules regulate obligations when home work applies, but not a statutory right to request and obtain it.",
+      "confidence": 0.9,
+      "sources": [
+        {
+          "title": "Hjemmekontor – Arbeidstilsynet (Norwegian Labour Inspection Authority)",
+          "url": "https://www.arbeidstilsynet.no/lonn-og-ansettelse/ansettelse/heimekontor/"
+        },
+        {
+          "title": "Hjemmekontor - hva må du som arbeidsgiver tenke på? – Altinn",
+          "url": "https://info.altinn.no/starte-og-drive/arbeidsforhold/ansettelse/hjemmekontor---hva-ma-du-som-arbeidsgiver-tenke-pa/"
+        }
+      ]
+    },
+    "reasoning": "Norwegian law requires employer and employee agreement for home-office; workers generally cannot unilaterally demand permanent remote work. Rules regulate obligations when home work applies, but not a statutory right to request and obtain it.",
+    "sources": [
+      {
+        "title": "Hjemmekontor – Arbeidstilsynet (Norwegian Labour Inspection Authority)",
+        "url": "https://www.arbeidstilsynet.no/lonn-og-ansettelse/ansettelse/heimekontor/"
+      },
+      {
+        "title": "Hjemmekontor - hva må du som arbeidsgiver tenke på? – Altinn",
+        "url": "https://info.altinn.no/starte-og-drive/arbeidsforhold/ansettelse/hjemmekontor---hva-ma-du-som-arbeidsgiver-tenke-pa/"
+      }
+    ],
+    "confidence": 0.9,
+    "answer": "No",
+    "value": null
+  }
+}

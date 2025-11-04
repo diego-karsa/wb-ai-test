@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-11-04T18:37:38.661663+00:00",
+  "economy": "Norway",
+  "question": {
+    "pillar": "Legal Frameworks",
+    "section_name": "Work",
+    "question_number": "1.3.1.",
+    "question_text": "Does the law allow employees to request flex time?",
+    "response_type": "yes_no",
+    "hint": "Flex time refers to a work arrangement that provides employees the flexibility to choose the time of work."
+  },
+  "assumptions_used": [
+    "For the purposes of this questionnaire, it is assumed that the questions focus on a woman residing in the main business city. Unless otherwise indicated, the woman in question has reached the legal age of majority and is capable of making decisions as an adult, is in good health and has no criminal record. The woman in question is a lawful citizen of the economy being examined."
+  ],
+  "model": "gpt-5-mini",
+  "usage": {
+    "total_tokens": 13143
+  },
+  "output": {
+    "raw": "{\"answer\":\"Yes\",\"reasoning\":\"Norwegian Working Environment Act (§10-2(3)) grants employees the right to flexible working hours if it can be implemented without substantial inconvenience to the employer.\",\"confidence\":1.0,\"sources\":[{\"title\":\"Arbeidsmiljøloven § 10-2 (Lovdata)\",\"url\":\"https://lovdata.no/dokument/LTI/lov/2005-06-17-62/KAPITTEL_10#%C2%A7%2010-2\"},{\"title\":\"Fleksibel arbeidstid — Arbeidstilsynet\",\"url\":\"https://www.arbeidstilsynet.no/arbeidstid-og-organisering/arbeidstid/fleksibel-arbeidstid/\"}]}",
+    "structured": {
+      "answer": "Yes",
+      "reasoning": "Norwegian Working Environment Act (§10-2(3)) grants employees the right to flexible working hours if it can be implemented without substantial inconvenience to the employer.",
+      "confidence": 1.0,
+      "sources": [
+        {
+          "title": "Arbeidsmiljøloven § 10-2 (Lovdata)",
+          "url": "https://lovdata.no/dokument/LTI/lov/2005-06-17-62/KAPITTEL_10#%C2%A7%2010-2"
+        },
+        {
+          "title": "Fleksibel arbeidstid — Arbeidstilsynet",
+          "url": "https://www.arbeidstilsynet.no/arbeidstid-og-organisering/arbeidstid/fleksibel-arbeidstid/"
+        }
+      ]
+    },
+    "reasoning": "Norwegian Working Environment Act (§10-2(3)) grants employees the right to flexible working hours if it can be implemented without substantial inconvenience to the employer.",
+    "sources": [
+      {
+        "title": "Arbeidsmiljøloven § 10-2 (Lovdata)",
+        "url": "https://lovdata.no/dokument/LTI/lov/2005-06-17-62/KAPITTEL_10#%C2%A7%2010-2"
+      },
+      {
+        "title": "Fleksibel arbeidstid — Arbeidstilsynet",
+        "url": "https://www.arbeidstilsynet.no/arbeidstid-og-organisering/arbeidstid/fleksibel-arbeidstid/"
+      }
+    ],
+    "confidence": 1.0,
+    "answer": "Yes",
+    "value": null
+  }
+}

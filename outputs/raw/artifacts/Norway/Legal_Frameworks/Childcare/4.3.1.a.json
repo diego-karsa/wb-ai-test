@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-11-04T18:40:45.897599+00:00",
+  "economy": "Norway",
+  "question": {
+    "pillar": "Legal Frameworks",
+    "section_name": "Childcare",
+    "question_number": "4.3.1.a.",
+    "question_text": "Does the law establish a caregiver-to-child ratio at childcare centers (public or private)?",
+    "response_type": "yes_no",
+    "hint": "Center-based childcare services: early childhood care and education services offered to children aged 0-2 years (including 2 years and 11 months) on a regular basis at formally registered nurseries, day cares, crèches, or preschools. The primary objective of childcare as a service is caring for children while parents are working while ensuring children are safe and have opportunities to learn and play"
+  },
+  "assumptions_used": [
+    "Assume that the woman gave birth without complications to two healthy children. If transitional provisions gradually increase, decrease or equalize the retirement age, please indicate the retirement ages at the time of your response to this questionnaire, even if the law provides for changes over time. If there is no national law on retirement and pension, the answer is “N/A”.",
+    "For the purposes of this questionnaire, it is assumed that the questions focus on a woman residing in the main business city. Unless otherwise indicated, the woman in question has reached the legal age of majority and is capable of making decisions as an adult, is in good health and has no criminal record. The woman in question is a lawful citizen of the economy being examined."
+  ],
+  "model": "gpt-5-mini",
+  "usage": {
+    "total_tokens": 9113
+  },
+  "output": {
+    "raw": "{\"answer\":\"Yes\",\"reasoning\":\"The Kindergarten Act and national regulations set minimum staffing: at least one staff per three children under age three (0–2) in licensed kindergartens. Municipal dispensations limited. \",\"confidence\":0.9,\"sources\":[{\"title\":\"Act relating to kindergartens (Kindergarten Act) — Lovdata\",\"url\":\"https://lovdata.no/dokument/NLE/lov/2005-06-17-64/KAPITTEL_4#%C2%A719\"},{\"title\":\"Status for bemanningsnorm og pedagognorm i barnehagene — Utdanningsdirektoratet (Udir)\",\"url\":\"https://www.udir.no/tall-og-forskning/publikasjoner/utdanningsspeilet/utdanningsspeilet-2022/barnehage/status-for-bemanningsnorm-og-pedagognorm-i-barnehagene/\"}]}",
+    "structured": {
+      "answer": "Yes",
+      "reasoning": "The Kindergarten Act and national regulations set minimum staffing: at least one staff per three children under age three (0–2) in licensed kindergartens. Municipal dispensations limited. ",
+      "confidence": 0.9,
+      "sources": [
+        {
+          "title": "Act relating to kindergartens (Kindergarten Act) — Lovdata",
+          "url": "https://lovdata.no/dokument/NLE/lov/2005-06-17-64/KAPITTEL_4#%C2%A719"
+        },
+        {
+          "title": "Status for bemanningsnorm og pedagognorm i barnehagene — Utdanningsdirektoratet (Udir)",
+          "url": "https://www.udir.no/tall-og-forskning/publikasjoner/utdanningsspeilet/utdanningsspeilet-2022/barnehage/status-for-bemanningsnorm-og-pedagognorm-i-barnehagene/"
+        }
+      ]
+    },
+    "reasoning": "The Kindergarten Act and national regulations set minimum staffing: at least one staff per three children under age three (0–2) in licensed kindergartens. Municipal dispensations limited. ",
+    "sources": [
+      {
+        "title": "Act relating to kindergartens (Kindergarten Act) — Lovdata",
+        "url": "https://lovdata.no/dokument/NLE/lov/2005-06-17-64/KAPITTEL_4#%C2%A719"
+      },
+      {
+        "title": "Status for bemanningsnorm og pedagognorm i barnehagene — Utdanningsdirektoratet (Udir)",
+        "url": "https://www.udir.no/tall-og-forskning/publikasjoner/utdanningsspeilet/utdanningsspeilet-2022/barnehage/status-for-bemanningsnorm-og-pedagognorm-i-barnehagene/"
+      }
+    ],
+    "confidence": 0.9,
+    "answer": "Yes",
+    "value": null
+  }
+}

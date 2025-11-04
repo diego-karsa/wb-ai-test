@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-11-04T18:42:27.808953+00:00",
+  "economy": "Norway",
+  "question": {
+    "pillar": "Policy Instruments",
+    "section_name": "Work",
+    "question_number": "2.2.2.",
+    "question_text": "Are there enforcement mechanisms to ensure compliance with equal pay legislation?",
+    "response_type": "yes_no",
+    "hint": "nan"
+  },
+  "assumptions_used": [
+    "This part focuses on policy instruments that support the implementation of laws. These may include national policies and action plans, institutions responsible for monitoring and enforcing laws, access to justice measures, government programs and services, and statistical data. Only instruments that are in place and operational should be considered."
+  ],
+  "model": "gpt-5-mini",
+  "usage": {
+    "total_tokens": 9089
+  },
+  "output": {
+    "raw": "{\"answer\":\"Yes\",\"reasoning\":\"Norway enforces equal pay via the Equality and Anti-Discrimination Ombud and the Anti-Discrimination Tribunal, with powers to investigate, order corrective measures, impose fines for non-compliance, and permit court actions and compensation claims.\",\"confidence\":0.9,\"sources\":[{\"title\":\"Act relating to equality and a prohibition against discrimination (Equality and Anti-Discrimination Act) - Chapter 6 (Lovdata)\",\"url\":\"https://lovdata.no/dokument/NLE/lov/2017-06-16-51/KAPITTEL_6\"},{\"title\":\"Gender equality — The Government (regjeringen.no)\",\"url\":\"https://www.regjeringen.no/en/topics/equality-and-diversity/likestilling-og-inkludering/gender-equality/id670481/\"}]}",
+    "structured": {
+      "answer": "Yes",
+      "reasoning": "Norway enforces equal pay via the Equality and Anti-Discrimination Ombud and the Anti-Discrimination Tribunal, with powers to investigate, order corrective measures, impose fines for non-compliance, and permit court actions and compensation claims.",
+      "confidence": 0.9,
+      "sources": [
+        {
+          "title": "Act relating to equality and a prohibition against discrimination (Equality and Anti-Discrimination Act) - Chapter 6 (Lovdata)",
+          "url": "https://lovdata.no/dokument/NLE/lov/2017-06-16-51/KAPITTEL_6"
+        },
+        {
+          "title": "Gender equality — The Government (regjeringen.no)",
+          "url": "https://www.regjeringen.no/en/topics/equality-and-diversity/likestilling-og-inkludering/gender-equality/id670481/"
+        }
+      ]
+    },
+    "reasoning": "Norway enforces equal pay via the Equality and Anti-Discrimination Ombud and the Anti-Discrimination Tribunal, with powers to investigate, order corrective measures, impose fines for non-compliance, and permit court actions and compensation claims.",
+    "sources": [
+      {
+        "title": "Act relating to equality and a prohibition against discrimination (Equality and Anti-Discrimination Act) - Chapter 6 (Lovdata)",
+        "url": "https://lovdata.no/dokument/NLE/lov/2017-06-16-51/KAPITTEL_6"
+      },
+      {
+        "title": "Gender equality — The Government (regjeringen.no)",
+        "url": "https://www.regjeringen.no/en/topics/equality-and-diversity/likestilling-og-inkludering/gender-equality/id670481/"
+      }
+    ],
+    "confidence": 0.9,
+    "answer": "Yes",
+    "value": null
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-11-04T19:45:43.431380+00:00",
+  "economy": "Norway",
+  "question": {
+    "pillar": "Legal Frameworks",
+    "section_name": "Work",
+    "question_number": "1.1.1.",
+    "question_text": "Does the law prohibit discrimination in recruitment based on marital status?",
+    "response_type": "yes_no",
+    "hint": "Select “Yes” if the law explicitly prohibits employers from discriminating based on marital status."
+  },
+  "assumptions_used": [
+    "For the purposes of this questionnaire, it is assumed that the questions focus on a woman residing in the main business city. Unless otherwise indicated, the woman in question has reached the legal age of majority and is capable of making decisions as an adult, is in good health and has no criminal record. The woman in question is a lawful citizen of the economy being examined."
+  ],
+  "model": "gpt-5-mini",
+  "usage": {
+    "total_tokens": 21362
+  },
+  "output": {
+    "raw": "{\"answer\":\"No\",\"reasoning\":\"Norwegian law does not explicitly prohibit recruitment discrimination based on marital status; employers may ask about sivilstatus though questions about family planning (pregnancy, adoption) are prohibited. \",\"confidence\":0.6,\"sources\":[{\"title\":\"Spørsmål om familieplanlegging på jobbintervju – Likestillings- og diskrimineringsombudet (LDO)\",\"url\":\"https://ldo.no/diskrimineringssituasjoner/sporsmal-om-familieplanlegging-pa-jobbintervju-graviditet-eller-foreldrepermisjon/\"},{\"title\":\"Prop. 81 L (2016–2017) – Lov om likestilling og forbud mot diskriminering (forarbeid) – Regjeringen.no\",\"url\":\"https://www.regjeringen.no/no/dokumenter/prop.-81-l-20162017/id2547420/\"}]}",
+    "structured": {
+      "answer": "No",
+      "reasoning": "Norwegian law does not explicitly prohibit recruitment discrimination based on marital status; employers may ask about sivilstatus though questions about family planning (pregnancy, adoption) are prohibited. ",
+      "confidence": 0.6,
+      "sources": [
+        {
+          "title": "Spørsmål om familieplanlegging på jobbintervju – Likestillings- og diskrimineringsombudet (LDO)",
+          "url": "https://ldo.no/diskrimineringssituasjoner/sporsmal-om-familieplanlegging-pa-jobbintervju-graviditet-eller-foreldrepermisjon/"
+        },
+        {
+          "title": "Prop. 81 L (2016–2017) – Lov om likestilling og forbud mot diskriminering (forarbeid) – Regjeringen.no",
+          "url": "https://www.regjeringen.no/no/dokumenter/prop.-81-l-20162017/id2547420/"
+        }
+      ]
+    },
+    "reasoning": "Norwegian law does not explicitly prohibit recruitment discrimination based on marital status; employers may ask about sivilstatus though questions about family planning (pregnancy, adoption) are prohibited. ",
+    "sources": [
+      {
+        "title": "Spørsmål om familieplanlegging på jobbintervju – Likestillings- og diskrimineringsombudet (LDO)",
+        "url": "https://ldo.no/diskrimineringssituasjoner/sporsmal-om-familieplanlegging-pa-jobbintervju-graviditet-eller-foreldrepermisjon/"
+      },
+      {
+        "title": "Prop. 81 L (2016–2017) – Lov om likestilling og forbud mot diskriminering (forarbeid) – Regjeringen.no",
+        "url": "https://www.regjeringen.no/no/dokumenter/prop.-81-l-20162017/id2547420/"
+      }
+    ],
+    "confidence": 0.6,
+    "answer": "No",
+    "value": null
+  }
+}

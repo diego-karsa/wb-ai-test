@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-11-04T18:41:57.001797+00:00",
+  "economy": "Norway",
+  "question": {
+    "pillar": "Legal Frameworks",
+    "section_name": "Pension",
+    "question_number": "5.2.2.",
+    "question_text": "What is the mandatory retirement age for a man?",
+    "response_type": "integer",
+    "hint": "nan"
+  },
+  "assumptions_used": [
+    "For the purposes of this questionnaire, it is assumed that the questions focus on a woman residing in the main business city. Unless otherwise indicated, the woman in question has reached the legal age of majority and is capable of making decisions as an adult, is in good health and has no criminal record. The woman in question is a lawful citizen of the economy being examined."
+  ],
+  "model": "gpt-5-mini",
+  "usage": {
+    "total_tokens": 9031
+  },
+  "output": {
+    "raw": "{\"value\":72,\"reasoning\":\"Under Norway's Working Environment Act, employment may be terminated on account of age at 72 (lower limits allowed only for safety/health or down to 70 in certain cases).\",\"confidence\":0.9,\"sources\":[{\"title\":\"Working Environment Act — Section 15-13 a (Termination of employment on account of age) — Arbeidstilsynet\",\"url\":\"https://www.arbeidstilsynet.no/en/laws-and-regulations/laws/the-working-environment-act/17/section15-1/\"},{\"title\":\"Act relating to the working environment (Working Environment Act) — Lovdata — Section 15-13 a\",\"url\":\"https://lovdata.no/dokument/NLE/lov/2005-06-17-62/%2A\"}]}",
+    "structured": {
+      "value": 72,
+      "reasoning": "Under Norway's Working Environment Act, employment may be terminated on account of age at 72 (lower limits allowed only for safety/health or down to 70 in certain cases).",
+      "confidence": 0.9,
+      "sources": [
+        {
+          "title": "Working Environment Act — Section 15-13 a (Termination of employment on account of age) — Arbeidstilsynet",
+          "url": "https://www.arbeidstilsynet.no/en/laws-and-regulations/laws/the-working-environment-act/17/section15-1/"
+        },
+        {
+          "title": "Act relating to the working environment (Working Environment Act) — Lovdata — Section 15-13 a",
+          "url": "https://lovdata.no/dokument/NLE/lov/2005-06-17-62/%2A"
+        }
+      ]
+    },
+    "reasoning": "Under Norway's Working Environment Act, employment may be terminated on account of age at 72 (lower limits allowed only for safety/health or down to 70 in certain cases).",
+    "sources": [
+      {
+        "title": "Working Environment Act — Section 15-13 a (Termination of employment on account of age) — Arbeidstilsynet",
+        "url": "https://www.arbeidstilsynet.no/en/laws-and-regulations/laws/the-working-environment-act/17/section15-1/"
+      },
+      {
+        "title": "Act relating to the working environment (Working Environment Act) — Lovdata — Section 15-13 a",
+        "url": "https://lovdata.no/dokument/NLE/lov/2005-06-17-62/%2A"
+      }
+    ],
+    "confidence": 0.9,
+    "answer": null,
+    "value": 72
+  }
+}

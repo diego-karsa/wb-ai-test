@@ -1,0 +1,6 @@
+﻿pillar,section_name,question_number,question_text,response_type,hint
+Marcos legales,Trabajo,1.1.1.,¿La ley prohíbe la discriminación en el reclutamiento por estado civil?,sí_no,Seleccione “Sí” si la ley prohíbe explícitamente a los empleadores discriminar por estado civil.
+Marcos legales,Trabajo,1.1.3.,¿La ley prohíbe la discriminación en la contratación por motivo de edad?,sí_no,"Seleccione ""Sí"" si la ley prohíbe explícitamente que los empleadores discriminen por edad."
+Marcos legales,Trabajo,1.3.1.,¿La ley permite que los empleados soliciten horario flexible?,sí_no,El horario flexible se refiere a un arreglo laboral que brinda a los empleados la flexibilidad para elegir el horario de trabajo.
+Marcos legales,Trabajo,1.3.2.,¿La ley permite a los empleados solicitar trabajo remoto?,sí_no,
+Marcos legales,Remuneración,2.1.,¿La ley exige remuneración igual por trabajo de igual valor?,sí_no,"La remuneración se refiere al salario ordinario, básico o mínimo y a cualquier emolumento adicional pagadero directa o indirectamente, ya sea en efectivo o en especie, por el empleador al trabajador y que derive del empleo del trabajador. El trabajo de igual valor se refiere no solo a los mismos o similares puestos, sino también a distintos puestos de igual valor."

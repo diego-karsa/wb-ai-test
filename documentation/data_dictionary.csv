@@ -1,0 +1,11 @@
+﻿table,variable,description,comment
+questions,pillar,Name of the pillar the question belongs to.,
+questions,section_name,Name of the section the question belongs to.,Can be included in the prompt as context.
+questions,question_number,Number of the question.,
+questions,question_text,Question itself.,
+questions,response_type,Expected data type of the response.,Can be used in the promp to request structured output.
+questions,hint,Hints and definitions given for each question in the questionnaire.,Definitions at the beginning of the section where incoporated to each row as needed.
+assumptions,pillar,Name of the pillar the assumptions belongs to.,Table created to not include redundant info on the questions table. 
+assumptions,section_name,Name of the section the assumptions belongs to.,"""All"" is for all sections."
+assumptions,assumptions,Assumptions of the sections (if there are).,General instruction of the second pillar included as assumption.
+economies,economy_name,Name of the economy,Only one for now. Implemented like this for future extensibility.

@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-11-04T18:38:25.197435+00:00",
+  "economy": "Norway",
+  "question": {
+    "pillar": "Legal Frameworks",
+    "section_name": "Pay",
+    "question_number": "2.2.2.",
+    "question_text": "Does the law allow public authorities to restrict or prohibit women from working at night?",
+    "response_type": "yes_no",
+    "hint": "nan"
+  },
+  "assumptions_used": [
+    "For the purposes of this questionnaire, it is assumed that the questions focus on a woman residing in the main business city. Unless otherwise indicated, the woman in question has reached the legal age of majority and is capable of making decisions as an adult, is in good health and has no criminal record. The woman in question is a lawful citizen of the economy being examined."
+  ],
+  "model": "gpt-5-mini",
+  "usage": {
+    "total_tokens": 5077
+  },
+  "output": {
+    "raw": "{\"answer\":\"No\",\"reasoning\":\"Norwegian law does not permit general restrictions/prohibitions on women working at night; night-work rules apply by health/safety and special protections (e.g., pregnancy), not gender-based bans.\",\"confidence\":0.9,\"sources\":[{\"title\":\"Working Environment Act (Arbeidsmiljøloven) — Lovdata\",\"url\":\"https://lovdata.no/dokument/NL/lov/2005-06-17-62\"},{\"title\":\"Night work — Norwegian Labour Inspection Authority (Arbeidstilsynet)\",\"url\":\"https://www.arbeidstilsynet.no/en/working-conditions/work-time/night-work/\"}]}",
+    "structured": {
+      "answer": "No",
+      "reasoning": "Norwegian law does not permit general restrictions/prohibitions on women working at night; night-work rules apply by health/safety and special protections (e.g., pregnancy), not gender-based bans.",
+      "confidence": 0.9,
+      "sources": [
+        {
+          "title": "Working Environment Act (Arbeidsmiljøloven) — Lovdata",
+          "url": "https://lovdata.no/dokument/NL/lov/2005-06-17-62"
+        },
+        {
+          "title": "Night work — Norwegian Labour Inspection Authority (Arbeidstilsynet)",
+          "url": "https://www.arbeidstilsynet.no/en/working-conditions/work-time/night-work/"
+        }
+      ]
+    },
+    "reasoning": "Norwegian law does not permit general restrictions/prohibitions on women working at night; night-work rules apply by health/safety and special protections (e.g., pregnancy), not gender-based bans.",
+    "sources": [
+      {
+        "title": "Working Environment Act (Arbeidsmiljøloven) — Lovdata",
+        "url": "https://lovdata.no/dokument/NL/lov/2005-06-17-62"
+      },
+      {
+        "title": "Night work — Norwegian Labour Inspection Authority (Arbeidstilsynet)",
+        "url": "https://www.arbeidstilsynet.no/en/working-conditions/work-time/night-work/"
+      }
+    ],
+    "confidence": 0.9,
+    "answer": "No",
+    "value": null
+  }
+}

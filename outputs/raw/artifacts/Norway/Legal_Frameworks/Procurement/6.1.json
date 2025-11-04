@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-11-04T18:42:18.040137+00:00",
+  "economy": "Norway",
+  "question": {
+    "pillar": "Legal Frameworks",
+    "section_name": "Procurement",
+    "question_number": "6.1.",
+    "question_text": "Does the law include gender-responsive procurement provisions for public procurement processes?",
+    "response_type": "yes_no",
+    "hint": "Gender-responsive procurement considers gender equality in selecting services, goods, and works. Please consider “Yes” if the law includes (a) gender-responsive measures (e.g., quotas, reserved contracts, certifications); (b) selection or exclusion criteria based on gender (e.g., workplace equality, gender-based violence protections); (c) tie-breaking rules favoring gender-inclusive businesses; or (d) explicit references to sex, gender, or women (general sustainability references are not sufficient)."
+  },
+  "assumptions_used": [
+    "For the purposes of this questionnaire, it is assumed that the questions focus on a woman residing in the main business city. Unless otherwise indicated, the woman in question has reached the legal age of majority and is capable of making decisions as an adult, is in good health and has no criminal record. The woman in question is a lawful citizen of the economy being examined."
+  ],
+  "model": "gpt-5-mini",
+  "usage": {
+    "total_tokens": 9271
+  },
+  "output": {
+    "raw": "{\"answer\":\"Yes\",\"reasoning\":\"Norwegian law requires public authorities to carry out active, targeted gender equality efforts (Gender Equality Act §12) and procurement rules mandate promotion of human rights/social criteria in purchasing, enabling gender-responsive criteria in public procurement.\",\"confidence\":0.6,\"sources\":[{\"title\":\"The Act relating to Gender Equality (English summary) - regjeringen.no\",\"url\":\"https://www.regjeringen.no/en/dokumenter/the-act-relating-to-gender-equality-the-/id454568/\"},{\"title\":\"Public Procurement and Human Rights - anskaffelser.no (guidance on socially responsible procurement)\",\"url\":\"https://anskaffelser.no/en/english/public-procurement-and-human-rights\"}]}",
+    "structured": {
+      "answer": "Yes",
+      "reasoning": "Norwegian law requires public authorities to carry out active, targeted gender equality efforts (Gender Equality Act §12) and procurement rules mandate promotion of human rights/social criteria in purchasing, enabling gender-responsive criteria in public procurement.",
+      "confidence": 0.6,
+      "sources": [
+        {
+          "title": "The Act relating to Gender Equality (English summary) - regjeringen.no",
+          "url": "https://www.regjeringen.no/en/dokumenter/the-act-relating-to-gender-equality-the-/id454568/"
+        },
+        {
+          "title": "Public Procurement and Human Rights - anskaffelser.no (guidance on socially responsible procurement)",
+          "url": "https://anskaffelser.no/en/english/public-procurement-and-human-rights"
+        }
+      ]
+    },
+    "reasoning": "Norwegian law requires public authorities to carry out active, targeted gender equality efforts (Gender Equality Act §12) and procurement rules mandate promotion of human rights/social criteria in purchasing, enabling gender-responsive criteria in public procurement.",
+    "sources": [
+      {
+        "title": "The Act relating to Gender Equality (English summary) - regjeringen.no",
+        "url": "https://www.regjeringen.no/en/dokumenter/the-act-relating-to-gender-equality-the-/id454568/"
+      },
+      {
+        "title": "Public Procurement and Human Rights - anskaffelser.no (guidance on socially responsible procurement)",
+        "url": "https://anskaffelser.no/en/english/public-procurement-and-human-rights"
+      }
+    ],
+    "confidence": 0.6,
+    "answer": "Yes",
+    "value": null
+  }
+}

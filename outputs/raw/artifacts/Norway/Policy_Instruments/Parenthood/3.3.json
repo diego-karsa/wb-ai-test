@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-11-04T18:42:38.625566+00:00",
+  "economy": "Norway",
+  "question": {
+    "pillar": "Policy Instruments",
+    "section_name": "Parenthood",
+    "question_number": "3.3.",
+    "question_text": "Does the government publish anonymized sex-disaggregated data on unpaid care work?",
+    "response_type": "yes_no",
+    "hint": "Sex-disaggregated data on unpaid care work include separate information about the time spent by  women and men performing tasks related to unpaid care work. Data must be collected and published by a public entity, such as the national statistics office."
+  },
+  "assumptions_used": [
+    "This part focuses on policy instruments that support the implementation of laws. These may include national policies and action plans, institutions responsible for monitoring and enforcing laws, access to justice measures, government programs and services, and statistical data. Only instruments that are in place and operational should be considered."
+  ],
+  "model": "gpt-5-mini",
+  "usage": {
+    "total_tokens": 9405
+  },
+  "output": {
+    "raw": "{\"answer\":\"Yes\",\"reasoning\":\"Statistics Norway publishes anonymized, sex-disaggregated time‑use and unpaid care work statistics (StatBank tables and surveys) showing women’s and men’s time on unpaid care tasks.\",\"confidence\":0.9,\"sources\":[{\"title\":\"Time spent on different activities an average day, by sex and age (StatBank table 14320)\",\"url\":\"https://www.ssb.no/en/statbank/table/14320/\"},{\"title\":\"Unpaid welfare work, Survey on living conditions (Statistics Norway)\",\"url\":\"https://www.ssb.no/en/helse/statistikker/omsarb/hvert-3-aar\"}]}",
+    "structured": {
+      "answer": "Yes",
+      "reasoning": "Statistics Norway publishes anonymized, sex-disaggregated time‑use and unpaid care work statistics (StatBank tables and surveys) showing women’s and men’s time on unpaid care tasks.",
+      "confidence": 0.9,
+      "sources": [
+        {
+          "title": "Time spent on different activities an average day, by sex and age (StatBank table 14320)",
+          "url": "https://www.ssb.no/en/statbank/table/14320/"
+        },
+        {
+          "title": "Unpaid welfare work, Survey on living conditions (Statistics Norway)",
+          "url": "https://www.ssb.no/en/helse/statistikker/omsarb/hvert-3-aar"
+        }
+      ]
+    },
+    "reasoning": "Statistics Norway publishes anonymized, sex-disaggregated time‑use and unpaid care work statistics (StatBank tables and surveys) showing women’s and men’s time on unpaid care tasks.",
+    "sources": [
+      {
+        "title": "Time spent on different activities an average day, by sex and age (StatBank table 14320)",
+        "url": "https://www.ssb.no/en/statbank/table/14320/"
+      },
+      {
+        "title": "Unpaid welfare work, Survey on living conditions (Statistics Norway)",
+        "url": "https://www.ssb.no/en/helse/statistikker/omsarb/hvert-3-aar"
+      }
+    ],
+    "confidence": 0.9,
+    "answer": "Yes",
+    "value": null
+  }
+}

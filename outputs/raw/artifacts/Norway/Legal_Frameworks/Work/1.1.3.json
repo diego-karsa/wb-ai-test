@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-11-04T18:37:26.505157+00:00",
+  "economy": "Norway",
+  "question": {
+    "pillar": "Legal Frameworks",
+    "section_name": "Work",
+    "question_number": "1.1.3.",
+    "question_text": "Does the law prohibit discrimination in recruitment based on age?",
+    "response_type": "yes_no",
+    "hint": "Select “Yes” if the law explicitly prohibits employers from discriminating based on age."
+  },
+  "assumptions_used": [
+    "For the purposes of this questionnaire, it is assumed that the questions focus on a woman residing in the main business city. Unless otherwise indicated, the woman in question has reached the legal age of majority and is capable of making decisions as an adult, is in good health and has no criminal record. The woman in question is a lawful citizen of the economy being examined."
+  ],
+  "model": "gpt-5-mini",
+  "usage": {
+    "total_tokens": 9050
+  },
+  "output": {
+    "raw": "{\"answer\":\"Yes\",\"reasoning\":\"The Working Environment Act explicitly prohibits direct and indirect discrimination based on age, including in recruitment and all aspects of employment (advertising, selection, terms and conditions).\",\"confidence\":0.9,\"sources\":[{\"title\":\"Working Environment Act, Chapter 13 §13-1 — Lovdata (Protection against discrimination)\",\"url\":\"https://lovdata.no/dokument/NLE/lov/2005-06-17-62/%C2%A713-1\"},{\"title\":\"Working Environment Act — Norwegian Labour Inspection Authority (overview of Section 13, scope covering recruitment)\",\"url\":\"https://www.arbeidstilsynet.no/en/laws-and-regulations/laws/the-working-environment-act/17/section15-16/\"}]}",
+    "structured": {
+      "answer": "Yes",
+      "reasoning": "The Working Environment Act explicitly prohibits direct and indirect discrimination based on age, including in recruitment and all aspects of employment (advertising, selection, terms and conditions).",
+      "confidence": 0.9,
+      "sources": [
+        {
+          "title": "Working Environment Act, Chapter 13 §13-1 — Lovdata (Protection against discrimination)",
+          "url": "https://lovdata.no/dokument/NLE/lov/2005-06-17-62/%C2%A713-1"
+        },
+        {
+          "title": "Working Environment Act — Norwegian Labour Inspection Authority (overview of Section 13, scope covering recruitment)",
+          "url": "https://www.arbeidstilsynet.no/en/laws-and-regulations/laws/the-working-environment-act/17/section15-16/"
+        }
+      ]
+    },
+    "reasoning": "The Working Environment Act explicitly prohibits direct and indirect discrimination based on age, including in recruitment and all aspects of employment (advertising, selection, terms and conditions).",
+    "sources": [
+      {
+        "title": "Working Environment Act, Chapter 13 §13-1 — Lovdata (Protection against discrimination)",
+        "url": "https://lovdata.no/dokument/NLE/lov/2005-06-17-62/%C2%A713-1"
+      },
+      {
+        "title": "Working Environment Act — Norwegian Labour Inspection Authority (overview of Section 13, scope covering recruitment)",
+        "url": "https://www.arbeidstilsynet.no/en/laws-and-regulations/laws/the-working-environment-act/17/section15-16/"
+      }
+    ],
+    "confidence": 0.9,
+    "answer": "Yes",
+    "value": null
+  }
+}

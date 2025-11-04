@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-11-04T18:40:02.961061+00:00",
+  "economy": "Norway",
+  "question": {
+    "pillar": "Legal Frameworks",
+    "section_name": "Parenthood",
+    "question_number": "3.3.2.",
+    "question_text": "How many days of paid parental leave reserved for the father are employees legally entitled to?",
+    "response_type": "integer",
+    "hint": "“Days” refers to calendar days. This question refers to days of parental leave reserved specifically for fathers—through “use-it-or-lose-it” policies or fathers’ quotas; or an individual entitlement. Paternity leave refers to leave available only to the father for the birth of a child."
+  },
+  "assumptions_used": [
+    "Both parents work full-time. They are married and have no other children, this is the couple’s first pregnancy, the woman is pregnant with only one child, the pregnancy and birth have no complications and that the birth of a healthy child takes place on October 1, 2024. If cash benefits while on leave are not calculated as a set percentage of the employee’s income, assume the employee earns the minimum wage for the food retail sector.",
+    "For the purposes of this questionnaire, it is assumed that the questions focus on a woman residing in the main business city. Unless otherwise indicated, the woman in question has reached the legal age of majority and is capable of making decisions as an adult, is in good health and has no criminal record. The woman in question is a lawful citizen of the economy being examined."
+  ],
+  "model": "gpt-5-mini",
+  "usage": {
+    "total_tokens": 13537
+  },
+  "output": {
+    "raw": "{\"value\":105,\"reasoning\":\"Norway’s non-transferable father’s quota (fedrekvote) is 15 weeks (15×7=105 calendar days) for parents choosing 100% compensation; 80% option gives 19 weeks (95 days).\",\"confidence\":0.9,\"sources\":[{\"title\":\"Fedrekvoten (NAV article)\",\"url\":\"https://arbeidogvelferd.nav.no/article/2022/06/Fedre-mer-forn%C3%B8yd-enn-m%C3%B8dre-%E2%80%93-syn-p%C3%A5-og-bruk-av-foreldrepengeordningen\"},{\"title\":\"How many fathers take paternity leave? (Statistics Norway)\",\"url\":\"https://www.ssb.no/en/befolkning/likestilling/statistikk/indikatorer-for-kjonnslikestilling-i-kommunene/Articles%20for%20Indicators%20for%20gender%20equality%20in%20municipalities/how-many-fathers-take-paternity-leave\"}]}",
+    "structured": {
+      "value": 105,
+      "reasoning": "Norway’s non-transferable father’s quota (fedrekvote) is 15 weeks (15×7=105 calendar days) for parents choosing 100% compensation; 80% option gives 19 weeks (95 days).",
+      "confidence": 0.9,
+      "sources": [
+        {
+          "title": "Fedrekvoten (NAV article)",
+          "url": "https://arbeidogvelferd.nav.no/article/2022/06/Fedre-mer-forn%C3%B8yd-enn-m%C3%B8dre-%E2%80%93-syn-p%C3%A5-og-bruk-av-foreldrepengeordningen"
+        },
+        {
+          "title": "How many fathers take paternity leave? (Statistics Norway)",
+          "url": "https://www.ssb.no/en/befolkning/likestilling/statistikk/indikatorer-for-kjonnslikestilling-i-kommunene/Articles%20for%20Indicators%20for%20gender%20equality%20in%20municipalities/how-many-fathers-take-paternity-leave"
+        }
+      ]
+    },
+    "reasoning": "Norway’s non-transferable father’s quota (fedrekvote) is 15 weeks (15×7=105 calendar days) for parents choosing 100% compensation; 80% option gives 19 weeks (95 days).",
+    "sources": [
+      {
+        "title": "Fedrekvoten (NAV article)",
+        "url": "https://arbeidogvelferd.nav.no/article/2022/06/Fedre-mer-forn%C3%B8yd-enn-m%C3%B8dre-%E2%80%93-syn-p%C3%A5-og-bruk-av-foreldrepengeordningen"
+      },
+      {
+        "title": "How many fathers take paternity leave? (Statistics Norway)",
+        "url": "https://www.ssb.no/en/befolkning/likestilling/statistikk/indikatorer-for-kjonnslikestilling-i-kommunene/Articles%20for%20Indicators%20for%20gender%20equality%20in%20municipalities/how-many-fathers-take-paternity-leave"
+      }
+    ],
+    "confidence": 0.9,
+    "answer": null,
+    "value": 105
+  }
+}

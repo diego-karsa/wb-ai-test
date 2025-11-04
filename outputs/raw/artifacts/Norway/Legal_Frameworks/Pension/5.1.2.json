@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-11-04T18:41:15.963287+00:00",
+  "economy": "Norway",
+  "question": {
+    "pillar": "Legal Frameworks",
+    "section_name": "Pension",
+    "question_number": "5.1.2. ",
+    "question_text": "What is the age at which a man can retire and receive full benefits?",
+    "response_type": "integer",
+    "hint": "nan"
+  },
+  "assumptions_used": [
+    "For the purposes of this questionnaire, it is assumed that the questions focus on a woman residing in the main business city. Unless otherwise indicated, the woman in question has reached the legal age of majority and is capable of making decisions as an adult, is in good health and has no criminal record. The woman in question is a lawful citizen of the economy being examined."
+  ],
+  "model": "gpt-5-mini",
+  "usage": {
+    "total_tokens": 13411
+  },
+  "output": {
+    "raw": "{\"value\":67,\"reasoning\":\"Norway's statutory/ordinary pensionable age for full old‑age pension is 67 years (flexible early draw possible from 62 with actuarial reductions).\",\"confidence\":0.9,\"sources\":[{\"title\":\"The ordinary pensionable age in Norway (Consolidated report / Council of Europe)\",\"url\":\"https://rm.coe.int/norway-consolidated-report-code-art74-2021/1680a5118c\"},{\"title\":\"Social Security Programs Throughout the World: Norway (SSA) – Old‑age pension age 67\",\"url\":\"https://www.ssa.gov/policy/docs/progdesc/ssptw/2018-2019/europe/norway.html\"}]}",
+    "structured": {
+      "value": 67,
+      "reasoning": "Norway's statutory/ordinary pensionable age for full old‑age pension is 67 years (flexible early draw possible from 62 with actuarial reductions).",
+      "confidence": 0.9,
+      "sources": [
+        {
+          "title": "The ordinary pensionable age in Norway (Consolidated report / Council of Europe)",
+          "url": "https://rm.coe.int/norway-consolidated-report-code-art74-2021/1680a5118c"
+        },
+        {
+          "title": "Social Security Programs Throughout the World: Norway (SSA) – Old‑age pension age 67",
+          "url": "https://www.ssa.gov/policy/docs/progdesc/ssptw/2018-2019/europe/norway.html"
+        }
+      ]
+    },
+    "reasoning": "Norway's statutory/ordinary pensionable age for full old‑age pension is 67 years (flexible early draw possible from 62 with actuarial reductions).",
+    "sources": [
+      {
+        "title": "The ordinary pensionable age in Norway (Consolidated report / Council of Europe)",
+        "url": "https://rm.coe.int/norway-consolidated-report-code-art74-2021/1680a5118c"
+      },
+      {
+        "title": "Social Security Programs Throughout the World: Norway (SSA) – Old‑age pension age 67",
+        "url": "https://www.ssa.gov/policy/docs/progdesc/ssptw/2018-2019/europe/norway.html"
+      }
+    ],
+    "confidence": 0.9,
+    "answer": null,
+    "value": 67
+  }
+}

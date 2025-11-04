@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-11-04T18:41:03.480405+00:00",
+  "economy": "Norway",
+  "question": {
+    "pillar": "Legal Frameworks",
+    "section_name": "Pension",
+    "question_number": "5.1.1.",
+    "question_text": "What is the age at which a woman can retire and receive full benefits?",
+    "response_type": "integer",
+    "hint": "nan"
+  },
+  "assumptions_used": [
+    "For the purposes of this questionnaire, it is assumed that the questions focus on a woman residing in the main business city. Unless otherwise indicated, the woman in question has reached the legal age of majority and is capable of making decisions as an adult, is in good health and has no criminal record. The woman in question is a lawful citizen of the economy being examined."
+  ],
+  "model": "gpt-5-mini",
+  "usage": {
+    "total_tokens": 17048
+  },
+  "output": {
+    "raw": "{\"value\":67,\"reasoning\":\"Norway's traditional full pension/guarantee pension is payable at age 67; alderspensjon historically taken at 67 (though reforms introduce a rising 'normert' pension age for younger cohorts).\",\"confidence\":0.7,\"sources\":[{\"title\":\"Alderspensjon – NAV (overview)\",\"url\":\"https://www.nav.no/satser/nn\"},{\"title\":\"Et mer sosialt og rettferdig pensjonssystem – regjeringen.no (information on pension age and reforms)\",\"url\":\"https://www.regjeringen.no/no/aktuelt/et-mer-sosialt-og-rettferdig-pensjonssystem/id3018933/\"}]}",
+    "structured": {
+      "value": 67,
+      "reasoning": "Norway's traditional full pension/guarantee pension is payable at age 67; alderspensjon historically taken at 67 (though reforms introduce a rising 'normert' pension age for younger cohorts).",
+      "confidence": 0.7,
+      "sources": [
+        {
+          "title": "Alderspensjon – NAV (overview)",
+          "url": "https://www.nav.no/satser/nn"
+        },
+        {
+          "title": "Et mer sosialt og rettferdig pensjonssystem – regjeringen.no (information on pension age and reforms)",
+          "url": "https://www.regjeringen.no/no/aktuelt/et-mer-sosialt-og-rettferdig-pensjonssystem/id3018933/"
+        }
+      ]
+    },
+    "reasoning": "Norway's traditional full pension/guarantee pension is payable at age 67; alderspensjon historically taken at 67 (though reforms introduce a rising 'normert' pension age for younger cohorts).",
+    "sources": [
+      {
+        "title": "Alderspensjon – NAV (overview)",
+        "url": "https://www.nav.no/satser/nn"
+      },
+      {
+        "title": "Et mer sosialt og rettferdig pensjonssystem – regjeringen.no (information on pension age and reforms)",
+        "url": "https://www.regjeringen.no/no/aktuelt/et-mer-sosialt-og-rettferdig-pensjonssystem/id3018933/"
+      }
+    ],
+    "confidence": 0.7,
+    "answer": null,
+    "value": 67
+  }
+}

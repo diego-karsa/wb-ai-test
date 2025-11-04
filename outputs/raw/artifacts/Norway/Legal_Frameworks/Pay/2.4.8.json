@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-11-04T18:38:58.616567+00:00",
+  "economy": "Norway",
+  "question": {
+    "pillar": "Legal Frameworks",
+    "section_name": "Pay",
+    "question_number": "2.4.8.",
+    "question_text": "Does the law allow public authorities to restrict or prohibit women from working in different economic sectors?",
+    "response_type": "yes_no",
+    "hint": "nan"
+  },
+  "assumptions_used": [
+    "For the purposes of this questionnaire, it is assumed that the questions focus on a woman residing in the main business city. Unless otherwise indicated, the woman in question has reached the legal age of majority and is capable of making decisions as an adult, is in good health and has no criminal record. The woman in question is a lawful citizen of the economy being examined."
+  ],
+  "model": "gpt-5-mini",
+  "usage": {
+    "total_tokens": 13341
+  },
+  "output": {
+    "raw": "{\"answer\":\"No\",\"reasoning\":\"Norwegian law prohibits discrimination by sex across all sectors (Equality and Anti-Discrimination Act §6); public authorities may not lawfully restrict or prohibit women from working in particular economic sectors.\",\"confidence\":0.9,\"sources\":[{\"title\":\"Act relating to equality and a prohibition against discrimination (Equality and Anti-Discrimination Act) - Lovdata\",\"url\":\"https://lovdata.no/dokument/NLE/lov/2017-06-16-51/%C2%A76\"},{\"title\":\"The Constitution of the Kingdom of Norway - Lovdata (human rights and state obligations)\",\"url\":\"https://lovdata.no/dokument/NLE/lov/1814-05-17\"}]}",
+    "structured": {
+      "answer": "No",
+      "reasoning": "Norwegian law prohibits discrimination by sex across all sectors (Equality and Anti-Discrimination Act §6); public authorities may not lawfully restrict or prohibit women from working in particular economic sectors.",
+      "confidence": 0.9,
+      "sources": [
+        {
+          "title": "Act relating to equality and a prohibition against discrimination (Equality and Anti-Discrimination Act) - Lovdata",
+          "url": "https://lovdata.no/dokument/NLE/lov/2017-06-16-51/%C2%A76"
+        },
+        {
+          "title": "The Constitution of the Kingdom of Norway - Lovdata (human rights and state obligations)",
+          "url": "https://lovdata.no/dokument/NLE/lov/1814-05-17"
+        }
+      ]
+    },
+    "reasoning": "Norwegian law prohibits discrimination by sex across all sectors (Equality and Anti-Discrimination Act §6); public authorities may not lawfully restrict or prohibit women from working in particular economic sectors.",
+    "sources": [
+      {
+        "title": "Act relating to equality and a prohibition against discrimination (Equality and Anti-Discrimination Act) - Lovdata",
+        "url": "https://lovdata.no/dokument/NLE/lov/2017-06-16-51/%C2%A76"
+      },
+      {
+        "title": "The Constitution of the Kingdom of Norway - Lovdata (human rights and state obligations)",
+        "url": "https://lovdata.no/dokument/NLE/lov/1814-05-17"
+      }
+    ],
+    "confidence": 0.9,
+    "answer": "No",
+    "value": null
+  }
+}

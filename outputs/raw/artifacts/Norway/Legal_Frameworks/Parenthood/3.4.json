@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-11-04T18:40:11.348635+00:00",
+  "economy": "Norway",
+  "question": {
+    "pillar": "Legal Frameworks",
+    "section_name": "Parenthood",
+    "question_number": "3.4.",
+    "question_text": "Is dismissal of pregnant workers prohibited?",
+    "response_type": "yes_no",
+    "hint": "Select “Yes” if pregnancy and childbirth cannot serve as grounds for termination of a contract or if dismissal of pregnant workers and workers who underwent childbirth is considered a form of unlawful  termination, unfair dismissal or wrongful discharge. Select “No” if there are no provisions prohibiting the dismissal of pregnant workers and workers who underwent childbirth, or if the law only prohibits the dismissal of pregnant workers during maternity leave or for a limited period of the pregnancy or when their pregnancy results in illness or disability."
+  },
+  "assumptions_used": [
+    "Both parents work full-time. They are married and have no other children, this is the couple’s first pregnancy, the woman is pregnant with only one child, the pregnancy and birth have no complications and that the birth of a healthy child takes place on October 1, 2024. If cash benefits while on leave are not calculated as a set percentage of the employee’s income, assume the employee earns the minimum wage for the food retail sector.",
+    "For the purposes of this questionnaire, it is assumed that the questions focus on a woman residing in the main business city. Unless otherwise indicated, the woman in question has reached the legal age of majority and is capable of making decisions as an adult, is in good health and has no criminal record. The woman in question is a lawful citizen of the economy being examined."
+  ],
+  "model": "gpt-5-mini",
+  "usage": {
+    "total_tokens": 9255
+  },
+  "output": {
+    "raw": "{\"answer\":\"Yes\",\"reasoning\":\"Norwegian Working Environment Act prohibits dismissal on grounds of pregnancy and protects employees during pregnancy and for specified parental-leave periods unless employer proves highly probable other grounds.\",\"confidence\":0.9,\"sources\":[{\"title\":\"Working Environment Act §15-9 — Protection against dismissal during pregnancy or following the birth or adoption of a child (Arbeidstilsynet)\",\"url\":\"https://prod.arbeidstilsynet.no/en/laws-and-regulations/laws/the-working-environment-act/17/section15-9/\"},{\"title\":\"Act relating to the working environment, working hours and employment protection (Working Environment Act) — Section 15-9 (Lovdata)\",\"url\":\"https://lovdata.no/dokument/NLE/lov/2005-06-17-62/%C2%A715-9\"}]}",
+    "structured": {
+      "answer": "Yes",
+      "reasoning": "Norwegian Working Environment Act prohibits dismissal on grounds of pregnancy and protects employees during pregnancy and for specified parental-leave periods unless employer proves highly probable other grounds.",
+      "confidence": 0.9,
+      "sources": [
+        {
+          "title": "Working Environment Act §15-9 — Protection against dismissal during pregnancy or following the birth or adoption of a child (Arbeidstilsynet)",
+          "url": "https://prod.arbeidstilsynet.no/en/laws-and-regulations/laws/the-working-environment-act/17/section15-9/"
+        },
+        {
+          "title": "Act relating to the working environment, working hours and employment protection (Working Environment Act) — Section 15-9 (Lovdata)",
+          "url": "https://lovdata.no/dokument/NLE/lov/2005-06-17-62/%C2%A715-9"
+        }
+      ]
+    },
+    "reasoning": "Norwegian Working Environment Act prohibits dismissal on grounds of pregnancy and protects employees during pregnancy and for specified parental-leave periods unless employer proves highly probable other grounds.",
+    "sources": [
+      {
+        "title": "Working Environment Act §15-9 — Protection against dismissal during pregnancy or following the birth or adoption of a child (Arbeidstilsynet)",
+        "url": "https://prod.arbeidstilsynet.no/en/laws-and-regulations/laws/the-working-environment-act/17/section15-9/"
+      },
+      {
+        "title": "Act relating to the working environment, working hours and employment protection (Working Environment Act) — Section 15-9 (Lovdata)",
+        "url": "https://lovdata.no/dokument/NLE/lov/2005-06-17-62/%C2%A715-9"
+      }
+    ],
+    "confidence": 0.9,
+    "answer": "Yes",
+    "value": null
+  }
+}

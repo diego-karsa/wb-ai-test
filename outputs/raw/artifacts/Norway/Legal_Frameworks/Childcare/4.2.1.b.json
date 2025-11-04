@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-11-04T18:40:25.827302+00:00",
+  "economy": "Norway",
+  "question": {
+    "pillar": "Legal Frameworks",
+    "section_name": "Childcare",
+    "question_number": "4.2.1.b.",
+    "question_text": "Does the law establish tax incentives for families for childcare services?",
+    "response_type": "yes_no",
+    "hint": "Tax incentives refer to credits, deductions or exemptions."
+  },
+  "assumptions_used": [
+    "Assume that the woman gave birth without complications to two healthy children. If transitional provisions gradually increase, decrease or equalize the retirement age, please indicate the retirement ages at the time of your response to this questionnaire, even if the law provides for changes over time. If there is no national law on retirement and pension, the answer is “N/A”.",
+    "For the purposes of this questionnaire, it is assumed that the questions focus on a woman residing in the main business city. Unless otherwise indicated, the woman in question has reached the legal age of majority and is capable of making decisions as an adult, is in good health and has no criminal record. The woman in question is a lawful citizen of the economy being examined."
+  ],
+  "model": "gpt-5-mini",
+  "usage": {
+    "total_tokens": 8906
+  },
+  "output": {
+    "raw": "{\"answer\":\"Yes\",\"reasoning\":\"Norwegian tax law provides a parental deduction (foreldrefradrag) allowing deductions for documented childcare/pass expenses for children (generally up to age 11).\",\"confidence\":0.9,\"sources\":[{\"title\":\"Kostnader til barnepass (foreldrefradrag) - Skatteetaten\",\"url\":\"https://www.skatteetaten.no/person/skatt/hjelp-til-riktig-skatt/familie-og-helse/barn/foreldrefradrag/\"},{\"title\":\"Informasjon for foreldre - Skatteetaten (fradrag for barnepassutgifter)\",\"url\":\"https://www.skatteetaten.no/person/skatt/hjelp-til-riktig-skatt/familie-og-helse/barn/betalt-barnepass/informasjon-for-foreldre/\"}]}",
+    "structured": {
+      "answer": "Yes",
+      "reasoning": "Norwegian tax law provides a parental deduction (foreldrefradrag) allowing deductions for documented childcare/pass expenses for children (generally up to age 11).",
+      "confidence": 0.9,
+      "sources": [
+        {
+          "title": "Kostnader til barnepass (foreldrefradrag) - Skatteetaten",
+          "url": "https://www.skatteetaten.no/person/skatt/hjelp-til-riktig-skatt/familie-og-helse/barn/foreldrefradrag/"
+        },
+        {
+          "title": "Informasjon for foreldre - Skatteetaten (fradrag for barnepassutgifter)",
+          "url": "https://www.skatteetaten.no/person/skatt/hjelp-til-riktig-skatt/familie-og-helse/barn/betalt-barnepass/informasjon-for-foreldre/"
+        }
+      ]
+    },
+    "reasoning": "Norwegian tax law provides a parental deduction (foreldrefradrag) allowing deductions for documented childcare/pass expenses for children (generally up to age 11).",
+    "sources": [
+      {
+        "title": "Kostnader til barnepass (foreldrefradrag) - Skatteetaten",
+        "url": "https://www.skatteetaten.no/person/skatt/hjelp-til-riktig-skatt/familie-og-helse/barn/foreldrefradrag/"
+      },
+      {
+        "title": "Informasjon for foreldre - Skatteetaten (fradrag for barnepassutgifter)",
+        "url": "https://www.skatteetaten.no/person/skatt/hjelp-til-riktig-skatt/familie-og-helse/barn/betalt-barnepass/informasjon-for-foreldre/"
+      }
+    ],
+    "confidence": 0.9,
+    "answer": "Yes",
+    "value": null
+  }
+}

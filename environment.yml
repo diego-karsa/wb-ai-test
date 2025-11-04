@@ -1,0 +1,14 @@
+name: diego_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pandas
+  - httpx
+  - certifi
+  - streamlit
+  - python-dotenv # To load environment variables from .env file
+  - pip
+  - pip:
+      - openai

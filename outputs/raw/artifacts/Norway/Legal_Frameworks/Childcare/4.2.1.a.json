@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-11-04T18:40:18.508445+00:00",
+  "economy": "Norway",
+  "question": {
+    "pillar": "Legal Frameworks",
+    "section_name": "Childcare",
+    "question_number": "4.2.1.a.",
+    "question_text": "Does the law establish financial support for families for childcare services?",
+    "response_type": "yes_no",
+    "hint": "Financial support refers to vouchers, allowances, subsidies, cash grants, reimbursements, a one-time payment, or other."
+  },
+  "assumptions_used": [
+    "Assume that the woman gave birth without complications to two healthy children. If transitional provisions gradually increase, decrease or equalize the retirement age, please indicate the retirement ages at the time of your response to this questionnaire, even if the law provides for changes over time. If there is no national law on retirement and pension, the answer is “N/A”.",
+    "For the purposes of this questionnaire, it is assumed that the questions focus on a woman residing in the main business city. Unless otherwise indicated, the woman in question has reached the legal age of majority and is capable of making decisions as an adult, is in good health and has no criminal record. The woman in question is a lawful citizen of the economy being examined."
+  ],
+  "model": "gpt-5-mini",
+  "usage": {
+    "total_tokens": 9201
+  },
+  "output": {
+    "raw": "{\"answer\":\"Yes\",\"reasoning\":\"Norwegian law provides financial support: universal child benefit (barnetrygd) and a cash-for-care allowance (kontantstøtte) for parents who do not use full-time public childcare, plus other supplements/subsidies. \",\"confidence\":0.9,\"sources\":[{\"title\":\"Child benefit (barnetrygd) – NAV\",\"url\":\"https://www.nav.no/barnetrygd/en\"},{\"title\":\"Cash-for-care benefit (kontantstøtte) – NAV\",\"url\":\"https://www.nav.no/kontantstotte/en\"}]}",
+    "structured": {
+      "answer": "Yes",
+      "reasoning": "Norwegian law provides financial support: universal child benefit (barnetrygd) and a cash-for-care allowance (kontantstøtte) for parents who do not use full-time public childcare, plus other supplements/subsidies. ",
+      "confidence": 0.9,
+      "sources": [
+        {
+          "title": "Child benefit (barnetrygd) – NAV",
+          "url": "https://www.nav.no/barnetrygd/en"
+        },
+        {
+          "title": "Cash-for-care benefit (kontantstøtte) – NAV",
+          "url": "https://www.nav.no/kontantstotte/en"
+        }
+      ]
+    },
+    "reasoning": "Norwegian law provides financial support: universal child benefit (barnetrygd) and a cash-for-care allowance (kontantstøtte) for parents who do not use full-time public childcare, plus other supplements/subsidies. ",
+    "sources": [
+      {
+        "title": "Child benefit (barnetrygd) – NAV",
+        "url": "https://www.nav.no/barnetrygd/en"
+      },
+      {
+        "title": "Cash-for-care benefit (kontantstøtte) – NAV",
+        "url": "https://www.nav.no/kontantstotte/en"
+      }
+    ],
+    "confidence": 0.9,
+    "answer": "Yes",
+    "value": null
+  }
+}
