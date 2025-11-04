@@ -1,43 +1,37 @@
-\## Environment Setup
+# AI Legal Pipeline
 
+This project uses a Conda environment for dependency management and provides both a command-line and Streamlit GUI for running the full pipeline.
 
+## Setup Instructions
 
-This project uses a Conda environment for dependency management.
-
-
-
-\### 1. Create the environment
+### 1. Create the Conda environment
 
 ```bash
-
 conda env create -f environment.yml
+```
 
-2\. Activate the environment
+### 2. Activate the environment
 
-bash
+```bash
+conda activate diego_env
+```
 
-Copy code
+### 3. Configure environment variables
+Create a ```.env``` file in the project root with the following contents:
 
-conda activate diego\_env
+OPENAI_API_KEY=your_openai_api_key_here
+CERTIFICATE_PATH=  # Optional, only if required
 
-3\. (Optional) Update the environment if environment.yml changes
+## Running the Project
 
-bash
+Run the full pipeline (all stages). This will run: client configuration, main pipeline, export, evaluation, and translation.
 
-Copy code
-
-conda env update -f environment.yml --prune
-
-4\. Run the project
-
-bash
-
-Copy code
-
-python src/main.py
-
-
-
-streamlit run src/app.py
-
+```bash
 python -m src.main
+```
+
+Run the Streamlit app. This app allows you to upload input CSVs, run the pipeline, view results, and download outputs.
+
+```bash
+streamlit run src/app.py
+```
