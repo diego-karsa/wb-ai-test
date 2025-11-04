@@ -2,6 +2,9 @@
 .env
 cacert.pem
 
+# == Notebooks ==
+notebooks/*
+
 # === Python cache ===
 __pycache__/
 *.pyc

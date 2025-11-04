@@ -36,3 +36,8 @@ Copy code
 
 python src/main.py
 
+
+
+streamlit run src/app.py
+
+python -m src.main
